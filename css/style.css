@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Define font-faces for different styles of Computer Modern */
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('/css/computermodern/cmunrm.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('/css/computermodern/cmunsl.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('/css/computermodern/cmunbx.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('/css/computermodern/cmunbi.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Apply the font to the entire website */
+body {
+    font-family: 'Computer Modern', serif;
+}
