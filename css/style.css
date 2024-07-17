@@ -1,9 +1,19 @@
+/* style.css */
 
 
 body {
-    max-width: 95%;
-    margin: 0 auto;
     background-color: #fefbf5;
+    max-width: 95%;
+    max-height: 95%;
+    margin: auto;
+    overflow: hidden; /* Prevents overflow in case content exceeds 95% height */
 }
+
+/* Ensure the html and body take up full height of the viewport */
+html, body {
+    height: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
 
 
