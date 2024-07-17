@@ -6,7 +6,6 @@ body {
     max-width: 95%;
     max-height: 95%;
     margin: 0 auto;
-    overflow: hidden; /* Prevents overflow in case content exceeds 95% height */
 }
 
 
