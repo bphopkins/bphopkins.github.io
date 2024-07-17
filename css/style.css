@@ -5,7 +5,7 @@ body {
     background-color: #fefbf5;
     max-width: 95%;
     max-height: 95%;
-    margin: auto;
+    margin: 0 auto;
     overflow: hidden; /* Prevents overflow in case content exceeds 95% height */
 }
 
