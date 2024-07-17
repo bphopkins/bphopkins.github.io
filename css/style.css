@@ -1,18 +1,24 @@
 /* style.css */
 
 
+/* style.css */
+
+/* Apply a subtle off-white background color to all pages */
 body {
     background-color: #fefbf5;
     max-width: 95%;
     max-height: 95%;
     margin: auto;
+    padding: 2.5%; /* Add padding to create space around the content */
+    box-sizing: border-box; /* Ensure padding is included in the total width and height */
     overflow: hidden; /* Prevents overflow in case content exceeds 95% height */
 }
 
 /* Ensure the html and body take up full height of the viewport */
 html, body {
     height: 100%;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 
