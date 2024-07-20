@@ -7,6 +7,19 @@ body {
     margin: 0 auto;
 }
 
+.mate-regular {
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mate-regular-italic {
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 
 
 
