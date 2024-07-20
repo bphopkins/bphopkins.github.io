@@ -3,21 +3,11 @@
 /* Apply a subtle off-white background color to all pages */
 body {
     background-color: #FFF8DC;
+    font-family: Georgia, serif;
     width: 90%;
     margin: 0 auto;
 }
 
-.mate-regular {
-  font-family: "Mate", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.mate-regular-italic {
-  font-family: "Mate", serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
 
 
