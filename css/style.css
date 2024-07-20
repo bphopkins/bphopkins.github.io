@@ -3,8 +3,7 @@
 /* Apply a subtle off-white background color to all pages */
 body {
     background-color: #fefbf5;
-    max-width: 95%;
-    max-height: 95%;
+    width: 95%;
     margin: 0 auto;
 }
 
