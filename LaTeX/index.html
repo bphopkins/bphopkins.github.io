@@ -22,7 +22,7 @@
 <hr>
 
 
-<h3>My Stuff</h3>
+<h3>Projects</h3>
     Those who know me know I am a big LaTeX fan.  It started in 2016 when Bas van Fraassen asked me to digitize his <a href="https://www.princeton.edu/~fraassen/Formal%20Semantics%20and%20Logic.pdf"><i>Formal Semantics and Logic</i></a>, which was quite a task. Of course, if I were to do it today I would do it differently.
     <br><br>
     And here is some stuff since:
@@ -31,16 +31,30 @@
         <li> Here is a link to my favorite macro file, <a href="https://github.com/bphopkins/texmf/blob/main/tex/latex/french-logic/french-logic.sty">french-logic.sty</a>, which I have been developing since coming to Davis. Suggestions for improvements are always welcome.</li>
     </ul>
 
-<h3> LaTeX Workflow with GitHub </h3>
+<h3> LaTeX Workflow </h3>
 
-    Here I will eventually explain how to use GitHub as a solution to Overleaf not yet supporting custom global macros.
+    I have a fairly advanced LaTeX workflow, about which I have sometimes been asked.
+    <br><br>
+    For beginners, I always recommend <a href="https://www.overleaf.com/">Overleaf</a>, which is by far the easiest entrypoint&mdash;no installation, etc.  For people who would rather work locally, I always recommend <a href="https://www.texstudio.org/">TeXstudio</a>, which offers lots of useful menus and toolbars and buttons (but then you need to install <a href="https://www.tug.org/texlive/">TeX Live</a>).
+    <br><br>
+    In my own case, I found two reasons not to use Overleaf: I sometimes work without an internet connection, and I need my custom macro files stored in one place.  And I found two reasons not to use TeXstudio: I no longer had (much) use for the toolbars, and I was tired of keeping track of whether my flash drive was in my laptop or desktop.  
+    <br><br>
+    I run Fedora Linux (click <a href="../images/linux-dk.jpg">here</a> for an image I saw on Twitter some years back, which tells the approximate story of the Linux journey), so of course most of my problems could have been solved in MacOS or Windows, with iCloud or OneDrive&mdash;or else with another Linux-compatible cloud storage service.  But the ability to publicly host stuff especially weighs in favor of GitHub, as do version control and collaboration management.
+    <br><br>
+    So these days, my setup is like this: 
+        <ul>
+            <li>I use <a href="https://code.visualstudio.com/">Visual Studio Code</a> with the LaTeX Workshop extension &ndash; which works much the same as TeXstudio but without so many toolbars &ndash; on both laptop and desktop, signed into GitHub for syncing.</li>
+            <li>I have all my LaTeX files in a private GitHub repository (sorted into folders for each document, with a folder for bibliographies at the top), and my custom macros in a public repository.</li>
+            <li>On each of my computers, my GitHub repositories are cloned on my desktop.</li>
+        </ul>
+    This way, when I sit down to work, I just open Visual Studio Code, sync anything that's unsynced, and get to work&mdash;and when I'm done I sync again. And whenever there is a chance I will have to work without an internet connection, I just sync my laptop before.
 
 <br><br>
  
 
 <hr> 
 <footer>
-    &copy <span id="year"></span> <a href="../">Brandon Hopkins</a>
+    &copy <span id="year"></span> <a href="../">Brandon Hopkins</a><br><br>
 </footer>
 <script src="../javascript/year.js"></script>
 
