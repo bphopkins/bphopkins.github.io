@@ -9,6 +9,18 @@ body {
     margin: 0 auto;
 }
 
+/* Global Body Parameters */
+header {
+    text-align: center;        /* Centered text */
+
+}
+
+/* Global Body Parameters */
+footer {
+    text-align: center;        /* Centered text */
+
+}
+
 /* Style for inline code elements */
 code {
     background-color: #f5f5f5;  /* Light gray background */
