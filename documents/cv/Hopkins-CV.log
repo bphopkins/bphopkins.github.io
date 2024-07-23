@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Fedora 40)  (format=lualatex 2024.7.11)  22 JUL 2024 21:39
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Fedora 40)  (format=lualatex 2024.7.11)  22 JUL 2024 21:47
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/bph/Desktop/bphopkins.github.io/documents/cv/Hopkins-CV.tex
@@ -36,8 +36,8 @@ Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programming layer <2023-02-22>
 Inserting `tracingstacklevels' in `input_level_string'. (/home/bph/Desktop/texmf/tex/latex/mod-cv/mod-cv.cls
 Document Class: mod-cv 2022-02-21 v2.3.1 modern curriculum vitae and letter document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /home/bph/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count183
@@ -518,6 +518,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4060.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 4060.
 Package hyperref Info: Hyper figures OFF on input line 4177.
 Package hyperref Info: Link nesting OFF on input line 4182.
 Package hyperref Info: Hyper index ON on input line 4185.
@@ -642,27 +643,27 @@ File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mode
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
 * driver: luatex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(44.81126pt, 507.88533pt, 44.81128pt)
-* v-part:(T,H,B)=(50.70074pt, 718.29497pt, 76.05113pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=507.88533pt
-* \textheight=718.29497pt
-* \oddsidemargin=-27.45872pt
-* \evensidemargin=-27.45872pt
-* \topmargin=-58.56924pt
+* h-part:(L,W,R)=(46.07025pt, 522.1545pt, 46.07025pt)
+* v-part:(T,H,B)=(47.69626pt, 675.72934pt, 71.54439pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=522.1545pt
+* \textheight=675.72934pt
+* \oddsidemargin=-26.19974pt
+* \evensidemargin=-26.19974pt
+* \topmargin=-61.57373pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -683,7 +684,9 @@ Package hyperref Info: Link coloring OFF on input line 22.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <9> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 25.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
@@ -699,11 +702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--25
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <7> on input line 27.
 [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Hopkins-CV.aux)
@@ -712,19 +711,19 @@ Package rerunfilecheck Info: File `Hopkins-CV.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 27311 strings out of 478285
- 125240,1977958 words of node,token memory allocated
- 3108 words of node memory still in use:
-   28 hlist, 3 vlist, 13 rule, 15 disc, 3 local_par, 2 math, 61 glue, 18 kern, 6 penalty, 3 margin_kern, 149 glyph, 80 attribute, 85 glue_spec, 80 attribute_list, 2 write, 3 pdf_start_link, 3 pdf_end_link, 4 pdf_action, 12 pdf_colorstack nodes
-   avail lists: 1:1,2:2323,3:643,4:336,5:493,6:293,7:9820,8:2,9:2893,10:2,11:563
- 46460 multiletter control sequences out of 65536+600000
- 53 fonts using 4198103 bytes
+ 27303 strings out of 478285
+ 156561,1977958 words of node,token memory allocated
+ 3098 words of node memory still in use:
+   28 hlist, 3 vlist, 13 rule, 15 disc, 3 local_par, 2 math, 61 glue, 18 kern, 6 penalty, 3 margin_kern, 149 glyph, 79 attribute, 85 glue_spec, 79 attribute_list, 2 write, 3 pdf_start_link, 3 pdf_end_link, 3 pdf_action, 12 pdf_colorstack nodes
+   avail lists: 1:4,2:2484,3:684,4:355,5:534,6:320,7:10685,8:1,9:3123,10:2,11:601
+ 46452 multiletter control sequences out of 65536+600000
+ 50 fonts using 4011415 bytes
  129i,13n,116p,1057b,1120s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Regular-400.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmromanslant17-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on Hopkins-CV.pdf (2 pages, 46944 bytes).
+</usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Regular-400.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmromanslant9-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmromanslant17-regular.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on Hopkins-CV.pdf (2 pages, 55834 bytes).
 
-PDF statistics: 163 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+PDF statistics: 183 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  15 named destinations out of 1000 (max. 131072)
  112 words of extra memory for PDF output out of 10000 (max. 100000000)
 
