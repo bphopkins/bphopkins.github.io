@@ -1,121 +1,81 @@
-\documentclass{article}
+\documentclass[11pt,a4paper,latin]{mod-cv}
 
-\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
-\usepackage{french-logic}
+% moderncv themes
+\moderncvstyle{classic} % Style options: casual, classic, banking, oldstyle, fancy
+\moderncvcolor{blue}    % Color options: blue, orange, green, red, purple, grey, black
 
+% character encoding
+\usepackage[utf8]{inputenc} % Replace with [latin1] if your file uses ISO-8859-1
 
-\hypersetup{
-    colorlinks=true,                  % Enable Colored Links
-    urlcolor=[rgb]{0, 0, 0.545},     % Dark Blue
-    filecolor=[rgb]{0, 0.392, 0},     % Dark Green
-    linkcolor=[rgb]{0.545, 0, 0}       % Dark Red
-}
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
 
+% personal data
+\name{\textbf{Brandon}}{\textbf{Hopkins}}
+\title{PhD Student, Philosophy}                               % optional, remove / comment the line if not wanted
+\address{Department of Philosophy, UC Davis}{}{}                % optional, remove / comment the line if not wanted
+\email{bphopkins@ucdavis.edu}                              % optional, remove / comment the line if not wanted
+\homepage{bphopkins.github.io}                                     % optional, remove / comment the line if not wanted
+\social[github]{bphopkins}                                     % optional, remove / comment the line if not wanted
+\extrainfo{\today}                                             % optional, remove / comment the line if not wanted
 
 \begin{document}
 
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
 
-\begin{center}
-    {\LARGE\textbf{Brandon Hopkins}}\\
-    \vspace{3mm}
-    PhD Student, Philosophy, \href{https://philosophy.ucdavis.edu/}{UC Davis}\\
-    \vspace{2mm}
-    \today\\
-    \vspace{2mm}
-    \includegraphics[width=0.22\textwidth]{../../images/email.png}\\
-    \vspace{1mm}
-    \url{http://bphopkins.github.io/}
-\end{center}
+\section{Education}
+\cventry{2020--2026 (expected)}{Ph.D. in Philosophy}{UC Davis}{}{}{}
+\cventry{2017--2020}{M.A. in Philosophy (with distinction)}{San Francisco State University}{}{}{
+  \begin{itemize}
+    \item My \href{http://hdl.handle.net/20.500.12680/n870zx00b}{thesis} was written under the supervision of \href{https://www.arezooislami.com/}{Arezoo Islami}, \href{https://sites.google.com/site/carlosmontemayorphilosophysfsu/}{Carlos Montemayor}, and \href{https://www.princeton.edu/~fraassen/}{Bas van Fraassen}.
+  \end{itemize}}
+\cventry{2010--2014}{B.A. in Philosophy}{San Francisco State University}{}{}{}
 
-%\hrule
+\section{Academic Positions}
+\cventry{Year--Present}{Assistant Professor}{Department of Philosophy, University Name}{}{}{}
+\cventry{Year--Year}{Lecturer}{Department of Philosophy, University Name}{}{}{}
+\cventry{Year--Year}{Teaching Assistant}{Department of Philosophy, University Name}{}{}{}
 
-\section*{Education}
-\begin{itemize}
-    \item \textbf{Ph.D. (in progress), Philosophy}, UC Davis, 2020--2026 (expected).
-    \item \textbf{M.A.(with distinction), Philosophy}, San Francisco State University, 2017--2020.
-    \begin{itemize}
-        \item My \href{http://hdl.handle.net/20.500.12680/n870zx00b}{thesis} was written under the supervision of \href{https://www.arezooislami.com/}{Arezoo Islami}, \href{https://sites.google.com/site/carlosmontemayorphilosophysfsu/}{Carlos Montemayor}, and \href{https://www.princeton.edu/~fraassen/}{Bas van Fraassen}.
-    \end{itemize}
-    \item \textbf{B.A., Philosophy}, San Francisco State University, 2010--2014.
-\end{itemize}
+\section{Publications}
+\cvitem{Journal Articles}{Author(s), "Title of the Article", \textit{Journal Name}, Volume(Issue), Page numbers, Year}
+\cvitem{Books}{Author(s), \textit{Title of the Book}, Publisher, Year}
+\cvitem{Book Chapters}{Author(s), "Title of the Chapter", in \textit{Title of the Book}, edited by Editor(s), Publisher, Page numbers, Year}
+\cvitem{Conference Proceedings}{Author(s), "Title of the Paper", in \textit{Proceedings of the Conference}, Location, Year}
 
-%\hrule
+\section{Presentations}
+\cvitem{2024}{\href{./documents/Hopkins - Conditional Obligation Logics.pdf}{Conditional Obligation Logics} --- Feb 2024, \href{https://llemmma.wordpress.com/}{Llemmma Group}, UC Davis}
+\cvitem{2021}{\href{./documents/Hopkins - Yablovian If-Thenism and Pure Mathematics.pdf}{Yablovian If-Thenism and Truthmakers for Pure Mathematics} --- Nov 2021, Llemmma Group, UC Davis}
 
-\section*{Academic Positions}
-\begin{itemize}
-    \item \textbf{Teaching Assistant}, Philosophy, UC Davis, 2020--present.
-    \item \textbf{Graduate Teaching Associate}, Philosophy, SFSU, 2012--2014, 2019--2020.
-    \item \textbf{Teaching Assistant}, Philosophy, SFSU, 2012--2014, 2017--2018.
-\end{itemize}
+\section{Teaching}
+\subsection{As instructor of record}
+\cvitem{2019--2020}{\textit{Critical Thinking} --- S2019, F2019, S2020 --- SFSU}
 
-%\hrule
+\subsection{As teaching assistant}
+\cvitem{2024}{\textit{Introduction to Bioethics} --- for \href{https://pdskeels.wixsite.com/paton}{Patrick Skeels} --- UC Davis}
+\cvitem{2024}{\textit{Minds, Brains, and Computers} --- for \href{https://sites.google.com/site/jonathanedorsey/}{Jonathan Dorsey} --- UC Davis}
+\cvitem{2023--2021}{\textit{Intermediate Logic} --- for \href{https://sites.google.com/view/skaantabakci}{S. Kaan Tabakci}, Jonathan Dorsey --- UC Davis}
+\cvitem{2022}{\textit{Introduction to the Philosophy of Science} --- for Tyrus Fisher --- UC Davis}
+\cvitem{2022--2020}{\textit{Appraisal of Scientific Reasoning} --- for \href{https://sites.google.com/site/hantilinphil/}{Hanti Lin}, \href{https://plgonzalezgomez.wixsite.com/plgonzalezgomez/home}{Paulina Gonzalez-Gomez} --- UC Davis}
+\cvitem{2021}{\textit{Philosophy of Religion} --- for Thor Harris --- UC Davis}
+\cvitem{2018--2017}{\textit{Philosophy and Personal Development} --- for \href{https://philosophy.sfsu.edu/people/kimbrough-moore}{Kimbrough Moore} --- SFSU}
+\cvitem{2017--2018}{\textit{Introduction to Philosophy} --- for Kimbrough Moore --- SFSU}
+\cvitem{2014}{\textit{Romanticism and Impressionism} --- for \href{https://www.georgeleonard.com/}{George J. Leonard} --- SFSU}
+\cvitem{2012--2013}{\textit{Formal Logic} --- for Isabelle Peschard --- SFSU}
 
-\section*{Publications}
-\begin{itemize}
-    \item In progress\ldots
-\end{itemize}
+\section{Grants and Fellowships}
+\cvitem{Year--Year}{Grant/Fellowship Title, Granting Organization, Amount}
 
-%\hrule
+\section{Awards}
+\cvitem{2020}{\textit{Distinguished Achievement Award for Academic Excellence}, SFSU Division of Graduate Studies}
 
-\section*{Presentations}
-\begin{itemize}
-    \item \href{https://bphopkins.github.io/documents/Hopkins%20-%20Conditional%20Obligation%20Logics.pdf}{Conditional Obligation Logics} --- Feb 2024, \href{https://llemmma.wordpress.com/}{Llemmma Group}, UC Davis
-    \item \href{https://bphopkins.github.io/documents/Hopkins%20-%20Yablovian%20If-Thenism%20and%20Pure%20Mathematics.pdf}{Yablovian If-Thenism and Truthmakers for Pure Mathematics} --- Nov 2021, Llemmma Group, UC Davis
-\end{itemize}
+\section{Professional Service}
+\cvitem{Year--Year}{Role, Organization}
 
-%\hrule
+\section{Professional Memberships}
+\cvitem{Year--Present}{Member, Organization Name}
 
-\section*{Teaching}
-\subsection*{As instructor of record:}
-\begin{itemize}
-    \item \textit{Critical Thinking} --- S2019, F2019, S2020 --- SFSU
-\end{itemize}
-
-\subsection*{As teaching assistant:}
-\begin{itemize}
-    \item \textit{Introduction to Bioethics} --- for \href{https://pdskeels.wixsite.com/paton}{Patrick Skeels} (S2024) --- UC Davis
-    \item \textit{Minds, Brains, and Computers} --- for \href{https://sites.google.com/site/jonathanedorsey/}{Jonathan Dorsey} (W2024) --- UC Davis
-    \item \textit{Intermediate Logic} --- for \href{https://sites.google.com/view/skaantabakci}{S. Kaan Tabakci} (F2023), Jonathan Dorsey (F2021) --- UC Davis
-    \item \textit{Introduction to the Philosophy of Science} --- for Tyrus Fisher (S2022) --- UC Davis
-    \item \textit{Appraisal of Scientific Reasoning} --- for \href{https://sites.google.com/site/hantilinphil/}{Hanti Lin} (W2022) and \href{https://plgonzalezgomez.wixsite.com/plgonzalezgomez/home}{Paulina Gonzalez-Gomez} (F2020) --- UC Davis
-    \item \textit{Philosophy of Religion} --- for Thor Harris (W2021) --- UC Davis
-    \item \textit{Philosophy and Personal Development} --- for \href{https://philosophy.sfsu.edu/people/kimbrough-moore}{Kimbrough Moore} (S2018, F2018) --- SFSU
-    \item \textit{Introduction to Philosophy} --- for Kimbrough Moore (F2017, S2018) --- SFSU
-    \item \textit{Romanticism and Impressionism} --- for \href{https://www.georgeleonard.com/}{George J. Leonard} (S2014) --- SFSU
-    \item \textit{Formal Logic} --- for Isabelle Peschard (F2012, S2013) --- SFSU
-\end{itemize}
-
-%\hrule
-
-%\section*{Grants and Fellowships}
-%\begin{itemize}
-%    \item Grant/Fellowship Title, Granting Organization, Amount, Year--Year
-%\end{itemize}
-
-%\hrule
-
-\section*{Awards}
-\begin{itemize}
-    \item \textit{Distinguished Achievement Award for Academic Excellence}, 2020, SFSU Division of Graduate Studies
-\end{itemize}
-
-%\hrule
-
-%\section*{Professional Service}
-%\begin{itemize}
-%    \item Role, Organization, Year--Year
-%\end{itemize}
-
-%\hrule
-
-%\section*{Professional Memberships}
-%\begin{itemize}
-%    \item Member, Organization Name, Year--Present
-%\end{itemize}
-
-%\hrule
-
-\section*{References}
+\section{References}
 Available upon request.
 
 \end{document}
